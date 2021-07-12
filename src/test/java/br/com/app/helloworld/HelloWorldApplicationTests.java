@@ -11,4 +11,9 @@ class HelloWorldApplicationTests {
 		System.out.println("ok");
 	}
 
+	@Test
+	void showMessage() {
+		System.out.println("Hello World");
+	}
+
 }
